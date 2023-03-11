@@ -15,7 +15,7 @@ function App() {
       dispatch(getUser(user.email))
     }
   })
-}, [dispatch]
+}, [dispatch])
   
 return (
   <div className="px-6">
